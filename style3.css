@@ -1,0 +1,21 @@
+body {
+    background-image: url(https://img.freepik.com/premium-vector/seamless-pattern-of-frogs-with-pink-flowers-and-little-snails-on-a-white-background-ideal-for-baby-fabric-home-decor-and-wrapping-paper_131761-551.jpg);
+}
+
+.p1 {
+    border: 2pt solid black;
+    background: none;
+    float: left;
+}
+
+.p2 {
+    border: 2pt solid black;
+    background: none;
+    float: right;
+}
+
+.p3 {
+    color:black;
+    text-align: center;
+    font-size: 20pt;
+}
