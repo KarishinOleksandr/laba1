@@ -1,0 +1,34 @@
+.t1 {
+    width: 75%;
+    background-color: aliceblue;
+    border: 1pt solid brown;
+    float: right;
+}
+
+.p1 {
+    color: brown;
+    font-size: 18pt;
+}
+
+.p2 {
+    text-align: center;
+    color: brown;
+    font-size: 18pt;
+}
+
+.t2 {
+    float:left;
+    position:relative;
+}
+.t3 {
+    width: 100%;
+    background-color: aliceblue;
+    border: 1pt solid brown;
+}
+
+.foto {
+    text-align: center;
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+}
