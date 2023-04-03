@@ -16,6 +16,14 @@
     font-size: 18pt;
 }
 
+.p3 {
+    text-align: center;
+    color:crimson;
+    font-size: 20pt;
+    font-style: italic;
+    font-weight: 500;
+}
+
 .t2 {
     float:left;
     position:relative;
@@ -28,5 +36,13 @@
 
 .foto {
     text-align: center;
-    position:relative;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
+
+.t4 {
+    float:right;
+    position:relative;
+}    
