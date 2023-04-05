@@ -46,3 +46,17 @@
     float:right;
     position:relative;
 }    
+
+.t5 {
+    text-align: center;
+     width: 50%;
+    background-color: aliceblue;
+    border: 1pt solid brown;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.t6 {
+    text-align: center;
+}
+
