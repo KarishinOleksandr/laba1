@@ -1,4 +1,11 @@
 .p1 {
     background-color: aqua;
+    color: brown;
+    font-size: 18pt;
+}
+
+.p2 {
+    background-color: burlywood;
+    color:blue;
     font-size: 18pt;
 }
