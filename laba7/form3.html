@@ -14,17 +14,17 @@
             <tr></tr>
             <tr class="t2">
                 <td width="30%">карта</td>
-                <td width="50%"><input size="50" type="text"></td>
+                <td width="50%"><input size="50" required="true" type="number"></td>
             </tr>
             <tr class="t2">
                 <td width="30%">номер</td>
-                <td width="50%"><input size="13" type="text" value="+380"></td>
+                <td width="50%"><input size="13" type="number" pattern="[0-9]"required="true"></td>
             </tr>
             <tr class="t2">
                 <td width="30%">товари</td>
                 <td width="50%">
                     <input type="checkbox" name="skill" value="1"> KAMAZ(50грн)
-                    <input type="checkbox" name="skill" value="2"> Jabka(1000грн)
+                    <input type="checkbox" name="skill" value="2"> Jabka(1000грн) <br>
                     <input type="checkbox" name="skill" value="3"> pivo(27.89грн)
                 </td>
             </tr>
@@ -46,6 +46,12 @@
                 <td id="lalala">
                     <input type="radio" name="234" value="1" > залишок
                     <input type="radio" name="23345" value="2" > операції
+                </td>
+            </tr>
+            <tr class="t2">
+                <td colspan="3">
+                    <input type="reset" name="reset" value="Відмова від заказу">
+                    <input type="submit" name="sumit" value="Замовити">
                 </td>
             </tr>
         </table>
