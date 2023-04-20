@@ -1,0 +1,56 @@
+.h21 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 20pt;
+    font-style: italic;
+    text-align: center;
+    color: blueviolet;
+}
+
+.h22 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 19pt;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    color: brown;
+}
+
+.h23 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 21pt;
+    text-decoration: underline;
+    text-align: center;
+    color: crimson;
+}
+
+body {
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=2000);
+    background-size: cover;
+}
+
+.d1 {
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+.d2 {
+    background-color: blanchedalmond;
+    border-width: 2px ;
+    border-color:cadetblue;
+    border-style: solid;
+    border-radius: 15%;
+}
+
+.text1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16pt;
+    text-align: justify;
+    text-indent: 2%;
+    padding-left: 1cm;
+    padding-right: 1cm;
+}
