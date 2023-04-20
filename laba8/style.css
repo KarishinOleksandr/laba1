@@ -1,0 +1,106 @@
+.t1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 26px;
+    font-style: italic;
+    text-align: center;
+    
+}
+.b1 {
+    background-image: url(https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?cs=srgb&dl=pexels-pixabay-235985.jpg&fm=jpg) ;
+}
+
+.t2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    text-align: justify;
+    font-size: 20px;
+    overflow-wrap:break-word;
+}
+
+.b2 {
+    background-color:rgb(163, 108, 72);
+    border-width: 2px ;
+    border-color: black ;
+    border-style: solid;
+    border-radius: 5%;
+}
+
+.f1 {
+    float: right;
+    margin-right: 1px;
+
+}
+
+.d1 {
+    float: left;
+    width: 75%;
+}
+
+.d2 {
+    float: right;
+    width: 25%;
+}
+
+.b3 {
+    background-color:rgb(197, 118, 65);
+    border-width: 2px ;
+    border-color: black ;
+    border-style: solid;
+    border-radius: 5%;
+}
+
+.b4 {
+    background-image: url(https://w0.peakpx.com/wallpaper/568/28/HD-wallpaper-neutral-color-curvy-lines-modern-zen-mural-neutral-abstract.jpg);
+}
+
+.kvitzal {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 35pt;
+    color: darkred;
+}
+
+.nazvkvit {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20pt;
+    color:blueviolet;
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    font-style: italic;
+    font-size: 14pt;
+    color: black;
+    text-indent: 2%;
+}
+
+.divzag {
+    background-color:rgb(184, 89, 228);
+    border-width: 2px ;
+    border-color: rgb(68, 145, 247) ;
+    border-style: solid;
+    border-radius: 5%;
+
+}
+
+.divzag2 {
+    background-color:rgb(215, 129, 255);
+    border-width: 2px ;
+    border-color: rgb(68, 145, 247) ;
+    border-style: solid;
+    border-radius: 5%;
+
+}
+
+.d3 {
+    float: right;
+    border-width: 10px;
+    border-color:aqua ;
+    margin-right:20px ;
+    
+}
