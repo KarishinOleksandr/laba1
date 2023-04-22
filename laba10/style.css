@@ -1,0 +1,110 @@
+body {
+    display: grid;
+    grid-template-areas: 
+    "A A A F"
+    "B C D F"
+    "O O D F"
+    "J J J J";
+    grid-template-rows: 45px 45px 45px 45px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 1px ;
+    margin: 0;
+    height: 50px;
+}
+
+@media all and (max-widht: 499px) {
+    body {
+        display: grid;
+        grid-template-areas: 
+        "A A A F"
+        "B C D F"
+        "O O D F"
+        "J J J J";
+        grid-template-rows: 15px 15px 15px 15px;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-gap: 1px ;
+        margin: 0;
+        height: 50px;
+    }
+}
+
+@media all and (max-width: 750px) {
+    body {
+        display: grid;
+        grid-template-areas: 
+        "A A A F"
+        "B C D F"
+        "O O D F"
+        "J J J J";
+        grid-template-rows: 30px 30px 30px 30px;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-gap: 1px ;
+        margin: 0;
+        height: 50px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    body {
+        display: grid;
+        grid-template-areas: 
+        "A A A F"
+        "B C D F"
+        "O O D F"
+        "J J J J";
+        grid-template-rows: 45px 45px 45px 45px;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-gap: 1px ;
+        margin: 0;
+        height: 50px;
+    }
+}
+
+#A {
+    grid-area: A;
+    background-color: blue;
+    border-color: aliceblue;
+    border-width: 1px;
+}
+
+#F {
+    grid-area: F;
+    background-color: dimgray;
+    border-color: aliceblue;
+    border-width: 1px;
+}
+
+#B {
+    grid-area: B;
+    background-color: aquamarine;
+    border-color: aliceblue;
+    border-width: 1px;
+}
+
+#C {
+    grid-area: C;
+    background-color: crimson;
+    border-color: aliceblue;
+    border-width: 1px;
+}
+
+#D {
+    grid-area: D;
+    background-color: darkgoldenrod;
+    border-color: aliceblue;
+    border-width: 1px;
+}
+
+#O {
+    grid-area: O;
+    background-color: darkgreen;
+    border-color: aliceblue;
+    border-width: 1px;
+}
+
+#J {
+    grid-area: J;
+    background-color: chocolate;
+    border-color: aliceblue;
+    border-width: 1px;
+}
