@@ -9,7 +9,7 @@ body {
     grid-template-columns: 25% 25% 25% 25%;
     grid-gap: 1px ;
     margin: 0;
-    height: 50px;
+    height: 60px;
 }
 
 @media all and (max-widht: 499px) {
@@ -44,7 +44,7 @@ body {
     }
 }
 
-@media all and (max-width: 1200px) {
+@media all and (max-width: 1500px) {
     body {
         display: grid;
         grid-template-areas: 
@@ -60,11 +60,14 @@ body {
     }
 }
 
+
 #A {
     grid-area: A;
     background-color: blue;
     border-color: aliceblue;
     border-width: 1px;
+    padding: 2px;
+    text-align: center;
 }
 
 #F {
@@ -72,6 +75,8 @@ body {
     background-color: dimgray;
     border-color: aliceblue;
     border-width: 1px;
+    padding: 2px;
+    text-align: center;
 }
 
 #B {
@@ -79,6 +84,8 @@ body {
     background-color: aquamarine;
     border-color: aliceblue;
     border-width: 1px;
+    padding: 2px;
+    text-align: center;
 }
 
 #C {
@@ -86,6 +93,8 @@ body {
     background-color: crimson;
     border-color: aliceblue;
     border-width: 1px;
+    padding: 2px;
+    text-align: center;
 }
 
 #D {
@@ -93,6 +102,8 @@ body {
     background-color: darkgoldenrod;
     border-color: aliceblue;
     border-width: 1px;
+    padding: 2px;
+    text-align: center;
 }
 
 #O {
@@ -100,6 +111,8 @@ body {
     background-color: darkgreen;
     border-color: aliceblue;
     border-width: 1px;
+    padding: 2px;
+    text-align: center;
 }
 
 #J {
@@ -107,4 +120,6 @@ body {
     background-color: chocolate;
     border-color: aliceblue;
     border-width: 1px;
+    padding: 2px;
+    text-align: center;
 }
