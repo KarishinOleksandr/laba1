@@ -1,0 +1,112 @@
+.t1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 26px;
+    font-style: italic;
+    text-align: center;
+    
+}
+
+
+.f1 {
+    float: right;
+    margin-top: 40px;
+}
+
+.f2 {
+    text-align: center;
+}
+
+.b4 {
+    display: grid;
+    grid-template-areas: 
+    "Header Header"
+    "Nav Text";
+    grid-template-rows:  1fr 1fr;
+    grid-template-columns: 15% 84%;
+    grid-gap: 20px;
+    height: 100px;
+    margin: 10px;
+    background-image: url(https://w0.peakpx.com/wallpaper/568/28/HD-wallpaper-neutral-color-curvy-lines-modern-zen-mural-neutral-abstract.jpg);
+    background-size: cover;
+}
+
+Header, Nav, Text {
+    background-color:rgb(255, 255, 255);
+    border-width: 2px ;
+    border-color: rgb(68, 145, 247) ;
+    border-style: solid;
+    padding: 10px;
+}
+
+#Header {
+    grid-area: Header;
+}
+
+#Nav {
+    grid-area: Nav;
+}
+
+#Text {
+    grid-area: Text;
+}
+
+.kvitzal {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 35pt;
+    color: darkred;
+}
+
+.nazvkvit {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20pt;
+    color:blueviolet;
+}
+
+.text {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-style: italic;
+    font-size: 16pt;
+    color: black;
+    text-indent: 2%;
+}
+
+
+.d3 {
+    text-align: center;
+    border-width: 10px;
+    border-color:aqua ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.p2 {
+    float: left;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-weight: 900;
+    color: blueviolet;
+    font-size: 30px;
+}
+
+a:visited{
+    color:  blueviolet;
+}
+
+a:hover{
+    color: darkgreen;
+}
+
+.text2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    font-style: italic;
+    font-size: 16pt;
+    color: rgb(255, 0, 0);
+    text-indent: 2%;
+}
