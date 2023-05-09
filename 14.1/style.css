@@ -1,0 +1,57 @@
+.container{
+    display: grid;
+}
+.row{
+
+}
+.task1 {
+    border: 1px;
+    border-style: solid ;
+    border-color: black;
+    height: 70px;
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .l1 {
+        background-color:coral;
+    }
+    .l7 {
+        background-color: coral;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .l2{
+        background-color: crimson;
+    }
+    .l4{
+        background-color: crimson;
+    }
+    .l6 {
+        background-color: crimson;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .l3{
+        background-color: blueviolet;
+    }
+    .l5{
+        background-color: blueviolet;
+    }
+}
+
+@media all and (max-width: 767px){
+    .task1{
+        color:aqua
+    }
+}
+
+.task2{
+    border: 1px;
+    border-style: solid ;
+    border-color: black;
+    height: 200px;
+    text-align: center;
+}
