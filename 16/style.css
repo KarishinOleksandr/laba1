@@ -41,3 +41,8 @@ body {
         border: 1px solid black;
         margin: 10px auto;
 }
+
+.pizdec{
+    font-size: x-large;
+    color: red;
+}
