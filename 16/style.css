@@ -1,0 +1,43 @@
+body {
+    background-image: url(photo_2023-05-20_23-09-40.jpg) ;
+    background-size: cover;
+    text-align: center;
+}
+
+.jab{
+    text-align: center;
+    color: rgb(247, 56, 56);
+    font-size: x-large;
+}
+
+.input{
+    margin-top: 2vh;
+    height: 3vh;
+    width: 12vw;
+    font-size: 2vh;
+    padding-left: 10px;
+}
+
+.yes {
+    border: 4px solid #00aa00;
+    outline: 1px solid black;
+}
+.no {
+    border: 4px solid red;
+    outline: 1px solid black;
+}
+
+.red{
+    background-color: brown;
+}
+
+.green{
+    background-color: chartreuse;
+}
+
+.div{
+        height: 10vh;
+        width: 25vw;
+        border: 1px solid black;
+        margin: 10px auto;
+}
