@@ -57,6 +57,36 @@ body {
   height: 1500px;
   float: left;
 }
+
+.baza3 {
+  background-color: rgb(141, 223, 243);
+  border: 3px;
+  border-color: rgb(99, 224, 255);
+  border-style: solid;
+  height: 1100px;
+  text-align: center;
+}
+
+@media all and (max-width: 991px) {
+  .menu {
+    height: 200px;
+  }
+  .baza {
+    height: 2200px;
+  }
+  .footer {
+    height: 400px;
+  }
+  .menu2 {
+    height: 200px;
+  }
+  .baza2 {
+    height: 1500px;
+  }
+  .baza3 {
+    height: 1000px;
+  }
+}
 .google {
   text-align: center;
   margin-top: 50px;
@@ -167,7 +197,7 @@ body {
 }
 
 .popup {
-  width: 800px;
+  width: 1000px;
   background-color: whitesmoke;
   border-radius: 6px;
   position: absolute;
@@ -175,12 +205,19 @@ body {
   text-align: center;
   visibility: hidden;
   transition: transform 0.4s;
-  margin-left: 300px;
+  margin-left: 800px;
 }
 
 .open-popup {
   visibility: visible;
   transform: translate(-50%, -50%) scale(1);
+}
+
+@media all and (max-width: 991px) {
+  .popup {
+    width: 800px;
+    margin-left: 500px;
+  }
 }
 .logo {
   float: left;
