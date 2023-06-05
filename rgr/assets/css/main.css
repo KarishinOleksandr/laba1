@@ -90,6 +90,17 @@ body {
 .google {
   text-align: center;
   margin-top: 50px;
+  margin-right: 400px;
+}
+
+.footleft {
+  float: left;
+  height: 200px;
+  width: 150;
+  background-color: rgba(141, 141, 141, 0.5);
+  text-align: center;
+  margin-top: 100px;
+  margin-left: 60px;
 }
 .textstyle {
   font-family: "Times New Roman", Times, serif;
@@ -198,7 +209,7 @@ body {
 
 .popup {
   width: 1000px;
-  background-color: whitesmoke;
+  background-color: white;
   border-radius: 6px;
   position: absolute;
   transform: translate(-50%, -50%) scale(0.01);
@@ -274,4 +285,19 @@ body {
   margin: 2px;
   text-decoration: underline;
   text-align: justify;
+}
+
+.fotzag {
+  color: rgb(245, 115, 54);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.fottext {
+  color: rgb(29, 26, 25);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  text-align: justify;
+  text-indent: 5px;
 }
