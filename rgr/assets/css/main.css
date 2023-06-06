@@ -75,7 +75,7 @@ body {
     height: 2200px;
   }
   .footer {
-    height: 400px;
+    height: 600px;
   }
   .menu2 {
     height: 200px;
@@ -101,6 +101,18 @@ body {
   text-align: center;
   margin-top: 100px;
   margin-left: 60px;
+}
+
+@media all and (max-width: 991px) {
+  .footleft {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 200px;
+  }
+  .google {
+    margin-left: 175px;
+    margin-top: 225px;
+  }
 }
 .textstyle {
   font-family: "Times New Roman", Times, serif;
@@ -226,8 +238,8 @@ body {
 
 @media all and (max-width: 991px) {
   .popup {
-    width: 800px;
-    margin-left: 500px;
+    width: 700px;
+    margin-left: 450px;
   }
 }
 .logo {
